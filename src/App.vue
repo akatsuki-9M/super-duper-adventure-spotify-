@@ -52,8 +52,8 @@
                       width="27"
                       src="https://yt3.ggpht.com/e9o-24_frmNSSVvjS47rT8qCHgsHNiedqgXbzmrmpsj6H1ketcufR1B9vLXTZRa30krRksPj=s88-c-k-c0x00ffffff-no-rj-mo"
                     >
-                    <div class="text-white text-[14px] ml-1.5 font-semibold">John Weeks Dev</div>
-                    <ChevronDown v-if="!openMenu" @click="openMenu = true" fillColor="#FFFFFF" :size="25" />
+                    <div class="text-white text-[14px] ml-1.5 font-semibold">Aman Pandey</div>
+                    <ChevronDown v-if="!openMenu" @click="openMenu = true" fillColor="#FFF" :size="25" />
                     <ChevronUp v-else @click="openMenu = false" fillColor="#FFFFFF" :size="25" />
                 </div>
             </button>
@@ -89,10 +89,11 @@
             </ul>
             <div class="border-b border-b-gray-700"></div>
             <ul>
-                <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #1</li>
+                <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlst #1</li>
                 <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #2</li>
                 <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #3</li>
                 <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #4</li>
+              <li></li>
             </ul>
         </div>
     </div>
